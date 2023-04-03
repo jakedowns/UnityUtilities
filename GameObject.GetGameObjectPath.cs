@@ -1,3 +1,4 @@
+/* via https://answers.unity.com/questions/8500/how-can-i-get-the-full-path-to-a-gameobject.html */
 public static string GetGameObjectPath(GameObject obj)
 {
     string path = "/" + obj.name;
